@@ -6,7 +6,11 @@ const FeatureList = [
   {
     title: "Fullstack Web Developer Intern",
     org: (
-      <a href="http://" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://deepthought.education/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Deepthought Edutech
       </a>
     ),
@@ -16,9 +20,21 @@ const FeatureList = [
   {
     title: "President",
     org: (
-      <a href="http://" target="_blank" rel="noopener noreferrer">
-        Ek Prayass - Jagrookt Ki Orr
-      </a>
+      <>
+        <a
+          href="https://tobaccomarshal.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ek Prayass - Jagrookt Ki Orr
+        </a>
+        @
+        <a
+          href="https://kiet.edu"
+          target="_blank"
+          rel="noopener noreferrer"
+        ></a>
+      </>
     ),
     duration: "Oct 2021 - Present",
     description: <></>,
@@ -26,7 +42,11 @@ const FeatureList = [
   {
     title: "School Captain",
     org: (
-      <a href="http://" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://www.stanthonyseniorsecondaryschool.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         St. Anthony's Senior Secondary School
       </a>
     ),
