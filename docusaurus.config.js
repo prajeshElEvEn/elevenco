@@ -43,13 +43,13 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/prajeshElEvEn/elevenco/tree/master/docs",
+          editUrl: "https://github.com/prajeshElEvEn/elevenco/tree/master",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/prajeshElEvEn/elevenco/tree/master/blog",
+          editUrl: "https://github.com/prajeshElEvEn/elevenco/tree/master",
         },
         theme: {
           customCss: "./src/css/custom.css",

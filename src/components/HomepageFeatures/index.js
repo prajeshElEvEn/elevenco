@@ -37,8 +37,8 @@ const FeatureList = [
 
 function Feature({ title, org, duration, description }) {
   return (
-    <div className={clsx("")}>
-      <div className="padding-horiz--md">
+    <div className={clsx("col col--12")}>
+      <div className="padding-vert--md">
         <Heading as="h3">{title}</Heading>
         <Heading as="h4">{org}</Heading>
         <p>{duration}</p>
@@ -52,7 +52,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="">
+        <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
