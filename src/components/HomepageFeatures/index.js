@@ -27,13 +27,11 @@ const FeatureList = [
           rel="noopener noreferrer"
         >
           Ek Prayass - Jagrookt Ki Orr
+        </a>{" "}
+        @{" "}
+        <a href="https://kiet.edu" target="_blank" rel="noopener noreferrer">
+          KIET Group of Institutions
         </a>
-        @
-        <a
-          href="https://kiet.edu"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></a>
       </>
     ),
     duration: "Oct 2021 - Present",
