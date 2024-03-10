@@ -67,7 +67,7 @@ const config = {
         title: "eleven co",
         logo: {
           alt: "eleven co",
-          src: "img/logo.svg",
+          src: "img/favicon.ico",
         },
         items: [
           {
