@@ -73,61 +73,69 @@ const config = {
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutorial",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
             position: "right",
+            label: "Works",
           },
+          { to: "/blog", label: "Blogs", position: "right" },
+          // {
+          //   href: "https://github.com/facebook/docusaurus",
+          //   label: "GitHub",
+          //   position: "right",
+          // },
         ],
       },
       footer: {
-        style: "dark",
+        style: "light",
         links: [
           {
-            title: "Docs",
+            title: "Content",
             items: [
               {
-                label: "Tutorial",
+                label: "Works",
                 to: "/docs/intro",
+              },
+              {
+                label: "Blogs",
+                to: "/blog",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Contact Me",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "prajesh.eleven118@gmail.com",
+                href: "mailto:prajesh.eleven118@gmail.com",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Github",
+                href: "https://github.com/prajeshElEvEn",
+              },
+              {
+                label: "Linked In",
+                href: "https://www.linkedin.com/in/prajesh-eleven/",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/prajeshElEvEn",
               },
             ],
           },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
+          // {
+          //   title: "More",
+          //   items: [
+          //     {
+          //       label: "Blog",
+          //       to: "/blog",
+          //     },
+          //     {
+          //       label: "GitHub",
+          //       href: "https://github.com/facebook/docusaurus",
+          //     },
+          //   ],
+          // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `&copy; ${new Date().getFullYear()} eleven co`,
       },
       prism: {
         theme: prismThemes.github,
