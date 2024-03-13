@@ -11,32 +11,54 @@ Markdown is a simple language that is rendered as html. Here's all that you need
 ## headings
 
 ```md
-#
-
-##
-
-###
-
-####
-
-#####
-
-######
+# heading 1
+```
+```md
+## heading 2
+```
+```md
+### heading 3
+```
+```md
+#### heading 4
+```
+```md
+##### heading 5
+```
+```md
+###### heading 6
+```
+### with id
+```md
+# heading {h1}
 ```
 
 ## list
 
 ```md
 - item 1
-  - item 11
-    - item 111
-  - item 12
+- item 2
+- item 3
 ```
 
 ```md
 1. item 1
 2. item 2
 3. item 3
+```
+
+```md
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
+
+```md
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
 ```
 
 ## styles
@@ -46,11 +68,29 @@ Markdown is a simple language that is rendered as html. Here's all that you need
 ```
 
 ```md
-_italic_
+*italic*
+```
+```md
+***bold and italic***
 ```
 
 ```md
 ~~strike through~~
+```
+
+```md
+==highlight==
+```
+
+## subscript
+```md
+H~2~O
+```
+
+## superscript
+
+```md
+x^2^
 ```
 
 ## link
@@ -63,4 +103,75 @@ _italic_
 
 ```md
 ![avatar](https://avatars.githubusercontent.com/u/75523737?v=4)
+```
+## code
+
+```md
+`inline code`
+```
+
+```md
+```py
+print("hello world")
+```
+```
+
+## quote
+
+```md
+> quote
+```
+
+## horizontal line
+
+```md
+***
+```
+## table
+
+```md
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+```
+```md
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+```
+
+## admonitions
+
+```md
+:::note
+
+Some content.
+
+:::
+
+:::tip
+
+Some content.
+
+:::
+
+:::info
+
+Some content.
+
+:::
+
+:::warning
+
+Some content.
+
+:::
+
+:::danger
+
+Some content.
+
+:::
 ```
