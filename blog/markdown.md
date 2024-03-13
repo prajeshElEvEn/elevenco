@@ -114,9 +114,12 @@ x^2^
 
 ```py
 print("hello world")
-```
+/```
 
 ```
+:::note
+`/` is just put there to avoid misinterpretation by renderer. Do not use it while writing markdown for code.
+:::
 
 ## quote
 
