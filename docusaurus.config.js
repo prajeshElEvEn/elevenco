@@ -9,7 +9,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Prajesh Pratap Singh",
-  tagline: "Web Developer | UI/UX Designer",
+  tagline: "Developer | Designer",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
