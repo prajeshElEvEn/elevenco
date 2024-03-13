@@ -113,7 +113,7 @@ x^2^
 ```md
 ```py
 print("hello world")
-/`/`/`
+/```
 ```
 
 ## quote
@@ -150,25 +150,29 @@ print("hello world")
 Some content.
 
 :::
-
+```
+```md
 :::tip
 
 Some content.
 
 :::
-
+```
+```md
 :::info
 
 Some content.
 
 :::
-
+```
+```md
 :::warning
 
 Some content.
 
 :::
-
+```
+```md
 :::danger
 
 Some content.
