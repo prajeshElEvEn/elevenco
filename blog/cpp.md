@@ -34,6 +34,8 @@ int i;
 float f;
 double d;
 char c;
+bool b;
+string s;
 ```
 
 ## Control structures
@@ -110,5 +112,31 @@ do{
 ```cpp
 for(initialization: condition; update){
 
+}
+```
+
+:::tip
+Some commonly used snippets:
+
+```cpp
+for(int i=0; i<n; i++){
+
+}
+```
+
+```cpp
+for(auto i: v){
+
+}
+```
+
+:::
+
+## function
+
+```cpp
+returnType functionName(type param1, type param2){
+
+        return value;
 }
 ```
